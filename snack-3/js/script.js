@@ -5,18 +5,25 @@
 
 // avendo un array con dei numeri
 const listNumber = [20, 40, 33, 28, 3, 56, 98, 45, 87, 39, 51, 44, 12, 17, 6, 9, 100, 103, 35, 63];
-    console.log(listNumber)
-    
+
     // comparare se i numeri sono pari o dispari
-    if(listNumber % 2 === 0){
+for (let i = 0; i < listNumber.length; i++){
+    const number = listNumber[i]; 
+    console.log(number)
 
+
+    if(number % 2 === 0){
+        
+        
     }
+}
 
 
 
 
 
 
+    
 
 
 // prendere i numeri pari e spostarli nel div verde
