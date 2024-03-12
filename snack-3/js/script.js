@@ -16,13 +16,13 @@ for (let i = 0; i < listNumber.length; i++){
         // prendere i numeri pari e spostarli nel div verde
         const greenDiv = document.querySelector('#green');
         greenDiv.style.color = 'green';
-        greenDiv.innerHTML += number
+        greenDiv.innerHTML += number;
 
         // prendere i numeri dispari e spostarli nel div rosso
     } else {
         const redDiv = document.querySelector('#red');
         redDiv.style.color = 'red';
-        redDiv.innerHTML += number
+        redDiv.innerHTML += number;
     }
 }
 
