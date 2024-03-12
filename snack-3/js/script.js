@@ -13,8 +13,16 @@ for (let i = 0; i < listNumber.length; i++){
 
 
     if(number % 2 === 0){
-        
-        
+        // prendere i numeri pari e spostarli nel div verde
+        const greenDiv = document.querySelector('#green');
+        greenDiv.style.color = 'green';
+        greenDiv.innerHTML += number
+
+        // prendere i numeri dispari e spostarli nel div rosso
+    } else {
+        const redDiv = document.querySelector('#red');
+        redDiv.style.color = 'red';
+        redDiv.innerHTML += number
     }
 }
 
@@ -26,5 +34,4 @@ for (let i = 0; i < listNumber.length; i++){
     
 
 
-// prendere i numeri pari e spostarli nel div verde
-// prendere i numeri dispari e spostarli nel div rosso
+
