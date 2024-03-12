@@ -4,8 +4,13 @@
 
 
 // chiedere all'utente un numero di 4 cifre
-const numberUser = parseInt(prompt('Scrivi un numero di 4 cifre'));
-console.log(numberUser)
+const askUser = prompt('Scrivi un numero di 4 cifre');
 
 // vedere i numeri
+for (let i = 0; i < askUser.length; i++) {
+    const userNumber = parseInt(askUser[i]);
+
+
+    
+}
 // calcolare la somma di tutte le cifre che compongono il numero.
